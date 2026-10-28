@@ -1,0 +1,1807 @@
+{
+  "checkedAt": "2026-10-28T15:40:10.761Z",
+  "method": "HTTPS GET following redirects (Node fetch, then headless Chromium for bot-protected sites). Pass = final status 2xx on the service's own domain, not a not-found page, not bounced to the home page.",
+  "verifiedCount": 69,
+  "droppedCount": 5,
+  "results": [
+    {
+      "id": "netflix",
+      "name": "Netflix",
+      "verified": true,
+      "url": "https://help.netflix.com/en/node/407",
+      "status": 200,
+      "finalUrl": "https://help.netflix.com/en/node/407",
+      "method": "fetch",
+      "title": "How to cancel Netflix | Netflix Help Center",
+      "attempts": [
+        {
+          "url": "https://help.netflix.com/en/node/407",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.netflix.com/en/node/407",
+          "title": "How to cancel Netflix | Netflix Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "verified": true,
+      "url": "https://support.spotify.com/us/article/cancel-premium/",
+      "status": 200,
+      "finalUrl": "https://support.spotify.com/us/article/cancel-premium/",
+      "method": "fetch",
+      "title": "How to cancel Premium plans - Spotify",
+      "attempts": [
+        {
+          "url": "https://support.spotify.com/us/article/cancel-premium/",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.spotify.com/us/article/cancel-premium/",
+          "title": "How to cancel Premium plans - Spotify",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "hulu",
+      "name": "Hulu",
+      "verified": true,
+      "url": "https://help.hulu.com/article/hulu-how-to-cancel",
+      "status": 200,
+      "finalUrl": "https://help.hulu.com/article/hulu-how-to-cancel",
+      "method": "fetch",
+      "title": "",
+      "attempts": [
+        {
+          "url": "https://help.hulu.com/article/hulu-how-to-cancel",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.hulu.com/article/hulu-how-to-cancel",
+          "title": "",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "disneyplus",
+      "name": "Disney+",
+      "verified": true,
+      "url": "https://help.disneyplus.com/article/disneyplus-cancel-subscription",
+      "status": 200,
+      "finalUrl": "https://help.disneyplus.com/article/disneyplus-cancel-subscription",
+      "method": "fetch",
+      "title": "",
+      "attempts": [
+        {
+          "url": "https://help.disneyplus.com/article/disneyplus-cancel-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.disneyplus.com/article/disneyplus-cancel-subscription",
+          "title": "",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "max",
+      "name": "Max",
+      "verified": true,
+      "url": "https://help.hbomax.com/cancel",
+      "status": 200,
+      "finalUrl": "https://help.hbomax.com/us/Answer/Detail/000002526",
+      "method": "fetch",
+      "title": "HBO Max | Everything you need to know about cancelling your HBO Max subscription.",
+      "attempts": [
+        {
+          "url": "https://help.hbomax.com/us/Answer/Detail/000002545",
+          "method": "manual-review",
+          "ok": false,
+          "reason": "Manual title review 2026-10-28: page is \"Get a list of all the providers that offer HBO Max\", not cancellation."
+        },
+        {
+          "url": "https://help.hbomax.com/cancel",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.hbomax.com/us/Answer/Detail/000002526",
+          "title": "HBO Max | Everything you need to know about cancelling your HBO Max subscription.",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "paramountplus",
+      "name": "Paramount+",
+      "verified": true,
+      "url": "https://support.paramountplus.com/s/article/PI-How-do-I-cancel-my-subscription",
+      "status": 200,
+      "finalUrl": "https://support.paramountplus.com/s/article/PI-How-do-I-cancel-my-subscription?language=en_US",
+      "method": "fetch",
+      "title": "Paramount+ Help Center",
+      "attempts": [
+        {
+          "url": "https://support.paramountplus.com/s/article/PI-How-do-I-cancel-my-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.paramountplus.com/s/article/PI-How-do-I-cancel-my-subscription?language=en_US",
+          "title": "Paramount+ Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "peacock",
+      "name": "Peacock",
+      "verified": true,
+      "url": "https://www.peacocktv.com/help/article/cancellation",
+      "status": 200,
+      "finalUrl": "https://www.peacocktv.com/help/article/cancellation",
+      "method": "fetch",
+      "title": "How do I cancel my Peacock plan?",
+      "attempts": [
+        {
+          "url": "https://www.peacocktv.com/help/article/cancellation",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.peacocktv.com/help/article/cancellation",
+          "title": "How do I cancel my Peacock plan?",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "youtube-premium",
+      "name": "YouTube Premium",
+      "verified": true,
+      "url": "https://support.google.com/youtube/answer/6308278",
+      "status": 200,
+      "finalUrl": "https://support.google.com/youtube/answer/6308278",
+      "method": "fetch",
+      "title": "Cancel YouTube Premium or YouTube Music Premium - Computer - YouTube Help",
+      "attempts": [
+        {
+          "url": "https://support.google.com/youtube/answer/6308278",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.google.com/youtube/answer/6308278",
+          "title": "Cancel YouTube Premium or YouTube Music Premium - Computer - YouTube Help",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "youtube-tv",
+      "name": "YouTube TV",
+      "verified": true,
+      "url": "https://support.google.com/youtubetv/answer/7129668",
+      "status": 200,
+      "finalUrl": "https://support.google.com/youtubetv/answer/7129668",
+      "method": "fetch",
+      "title": "Cancel or pause your YouTube TV membership - Computer - YouTube TV Help",
+      "attempts": [
+        {
+          "url": "https://support.google.com/youtubetv/answer/7129668",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.google.com/youtubetv/answer/7129668",
+          "title": "Cancel or pause your YouTube TV membership - Computer - YouTube TV Help",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "name": "Apple",
+      "verified": true,
+      "url": "https://support.apple.com/en-us/118428",
+      "status": 200,
+      "finalUrl": "https://support.apple.com/en-us/118428",
+      "method": "fetch",
+      "title": "Cancel a subscription from Apple - Apple Support",
+      "attempts": [
+        {
+          "url": "https://support.apple.com/en-us/118428",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.apple.com/en-us/118428",
+          "title": "Cancel a subscription from Apple - Apple Support",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-prime",
+      "name": "Amazon Prime",
+      "verified": true,
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y",
+      "method": "fetch",
+      "title": "How to Cancel Amazon Prime - Amazon Customer Service",
+      "attempts": [
+        {
+          "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=G6LDPN7YJHYKH2J6",
+          "method": "manual-review",
+          "ok": false,
+          "reason": "Manual title review 2026-10-28: generic \"Prime Benefits & Membership Details\" page, not cancellation."
+        },
+        {
+          "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GTJQ7QZY7QL2HK4Y",
+          "title": "How to Cancel Amazon Prime - Amazon Customer Service",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "kindle-unlimited",
+      "name": "Kindle Unlimited",
+      "verified": true,
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=T14kmeziBQrl6FYUjz",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/gp/help/customer/display.html?nodeId=T14kmeziBQrl6FYUjz",
+      "method": "fetch",
+      "title": "Cancel Your Kindle+ Subscription - Amazon Customer Service",
+      "attempts": [
+        {
+          "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=T14kmeziBQrl6FYUjz",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.amazon.com/gp/help/customer/display.html?nodeId=T14kmeziBQrl6FYUjz",
+          "title": "Cancel Your Kindle+ Subscription - Amazon Customer Service",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "audible",
+      "name": "Audible",
+      "verified": true,
+      "url": "https://help.audible.com/s/article/how-can-i-cancel-my-membership",
+      "status": 200,
+      "finalUrl": "https://help.audible.com/s/article/cancel-membership?language=en_US",
+      "method": "fetch",
+      "title": "Help Center Desktop",
+      "attempts": [
+        {
+          "url": "https://help.audible.com/s/article/how-can-i-cancel-my-membership",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.audible.com/s/article/cancel-membership?language=en_US",
+          "title": "Help Center Desktop",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "google-one",
+      "name": "Google One",
+      "verified": true,
+      "url": "https://support.google.com/googleone/answer/9056360?hl=en",
+      "status": 200,
+      "finalUrl": "https://support.google.com/googleone/answer/9056360?hl=en",
+      "method": "fetch",
+      "title": "Cancel your Google One membership - Computer - Google One Help",
+      "attempts": [
+        {
+          "url": "https://support.google.com/googleone/answer/9056360?hl=en",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.google.com/googleone/answer/9056360?hl=en",
+          "title": "Cancel your Google One membership - Computer - Google One Help",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "google-play",
+      "name": "Google Play subscriptions",
+      "verified": true,
+      "url": "https://support.google.com/googleplay/answer/7018481",
+      "status": 200,
+      "finalUrl": "https://support.google.com/googleplay/answer/7018481",
+      "method": "fetch",
+      "title": "Cancel, pause, or change a subscription on Google Play - Computer - Google Play Help",
+      "attempts": [
+        {
+          "url": "https://support.google.com/googleplay/answer/7018481",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.google.com/googleplay/answer/7018481",
+          "title": "Cancel, pause, or change a subscription on Google Play - Computer - Google Play Help",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "microsoft-365",
+      "name": "Microsoft 365",
+      "verified": true,
+      "url": "https://support.microsoft.com/en-us/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b",
+      "status": 200,
+      "finalUrl": "https://support.microsoft.com/en-us/accounts-billing/subscriptions/cancel-a-microsoft-365-subscription",
+      "method": "fetch",
+      "title": "Cancel a Microsoft 365 subscription | Microsoft Support",
+      "attempts": [
+        {
+          "url": "https://support.microsoft.com/en-us/office/cancel-a-microsoft-365-subscription-46e2634c-c64b-4c65-94b9-2cc9c960e91b",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.microsoft.com/en-us/accounts-billing/subscriptions/cancel-a-microsoft-365-subscription",
+          "title": "Cancel a Microsoft 365 subscription | Microsoft Support",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "xbox",
+      "name": "Xbox Game Pass",
+      "verified": true,
+      "url": "https://support.xbox.com/en-US/help/subscriptions-billing/manage-subscriptions/cancel-recurring-billing-or-subscription",
+      "status": 200,
+      "finalUrl": "https://support.xbox.com/en-US/help/subscriptions-billing/manage-subscriptions/cancel-recurring-billing-or-subscription",
+      "method": "fetch",
+      "title": "XBOX Support",
+      "attempts": [
+        {
+          "url": "https://support.xbox.com/en-US/help/subscriptions-billing/manage-subscriptions/cancel-recurring-billing-or-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.xbox.com/en-US/help/subscriptions-billing/manage-subscriptions/cancel-recurring-billing-or-subscription",
+          "title": "XBOX Support",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "playstation",
+      "name": "PlayStation Plus",
+      "verified": true,
+      "url": "https://www.playstation.com/support/subscriptions/cancel-playstation-plus/",
+      "status": 200,
+      "finalUrl": "https://www.playstation.com/en-us/support/subscriptions/cancel-playstation-plus/",
+      "method": "fetch",
+      "title": "How to cancel PlayStation Plus",
+      "attempts": [
+        {
+          "url": "https://www.playstation.com/support/subscriptions/cancel-playstation-plus/",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.playstation.com/en-us/support/subscriptions/cancel-playstation-plus/",
+          "title": "How to cancel PlayStation Plus",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "nintendo",
+      "name": "Nintendo Switch Online",
+      "verified": true,
+      "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/41196/~/how-to-cancel-a-nintendo-switch-online-membership-or-adjust-auto-renewal",
+      "status": 200,
+      "finalUrl": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/41196/~/how-to-cancel-a-nintendo-switch-online-membership-or-adjust-auto-renewal",
+      "method": "fetch",
+      "title": "How to Cancel a Nintendo Switch Online Membership or Adjust Auto-Renewal Settings | Nintendo Support",
+      "attempts": [
+        {
+          "url": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/41196/~/how-to-cancel-a-nintendo-switch-online-membership-or-adjust-auto-renewal",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://en-americas-support.nintendo.com/app/answers/detail/a_id/41196/~/how-to-cancel-a-nintendo-switch-online-membership-or-adjust-auto-renewal",
+          "title": "How to Cancel a Nintendo Switch Online Membership or Adjust Auto-Renewal Settings | Nintendo Support",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "adobe",
+      "name": "Adobe Creative Cloud",
+      "verified": true,
+      "url": "https://helpx.adobe.com/manage-account/using/cancel-subscription.html",
+      "status": 200,
+      "finalUrl": "https://helpx.adobe.com/account/individual/subscriptions-and-plans/renewals-and-cancellations/cancel-adobe-subscription.html",
+      "method": "fetch",
+      "title": "Cancel Adobe trial or subscription | Adobe Account",
+      "attempts": [
+        {
+          "url": "https://helpx.adobe.com/manage-account/using/cancel-subscription.html",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://helpx.adobe.com/account/individual/subscriptions-and-plans/renewals-and-cancellations/cancel-adobe-subscription.html",
+          "title": "Cancel Adobe trial or subscription | Adobe Account",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "dropbox",
+      "name": "Dropbox",
+      "verified": true,
+      "url": "https://help.dropbox.com/billing/cancel-subscription",
+      "status": 200,
+      "finalUrl": "https://help.dropbox.com/plans/downgrade-dropbox-individual-plans",
+      "method": "fetch",
+      "title": "Cancel or change a Dropbox subscription - Dropbox Help",
+      "attempts": [
+        {
+          "url": "https://help.dropbox.com/billing/cancel-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.dropbox.com/plans/downgrade-dropbox-individual-plans",
+          "title": "Cancel or change a Dropbox subscription - Dropbox Help",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "name": "ChatGPT Plus",
+      "verified": true,
+      "url": "https://help.openai.com/en/articles/7232927-how-do-i-cancel-my-chatgpt-plus-subscription",
+      "status": 200,
+      "finalUrl": "https://help.openai.com/en/articles/7232927-canceling-your-chatgpt-subscription",
+      "method": "fetch",
+      "title": "Canceling your ChatGPT subscription | OpenAI Help Center",
+      "attempts": [
+        {
+          "url": "https://help.openai.com/en/articles/7232927-how-do-i-cancel-my-chatgpt-plus-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.openai.com/en/articles/7232927-canceling-your-chatgpt-subscription",
+          "title": "Canceling your ChatGPT subscription | OpenAI Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "doordash",
+      "name": "DashPass",
+      "verified": true,
+      "url": "https://help.doordash.com/consumers/s/article/How-do-I-cancel-my-DashPass-subscription",
+      "status": 200,
+      "finalUrl": "https://help.doordash.com/en-us/consumers/article/how-do-i-cancel-my-dashpass-subscription",
+      "method": "fetch",
+      "title": "How do I cancel my DashPass subscription? | Customer Support | DoorDash Help Center",
+      "attempts": [
+        {
+          "url": "https://help.doordash.com/consumers/s/article/How-do-I-cancel-my-DashPass-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.doordash.com/en-us/consumers/article/how-do-i-cancel-my-dashpass-subscription",
+          "title": "How do I cancel my DashPass subscription? | Customer Support | DoorDash Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "uber-one",
+      "name": "Uber One",
+      "verified": true,
+      "url": "https://help.uber.com/en/riders/article/how-can-i-cancel-my-uber-one-membership?nodeId=8f62fc7a-6cc9-4ac7-a59a-3f5627bf616c",
+      "status": 200,
+      "finalUrl": "https://help.uber.com/en/riders/article/how-can-i-cancel-my-uber-one-membership?nodeId=8f62fc7a-6cc9-4ac7-a59a-3f5627bf616c",
+      "method": "fetch",
+      "title": "How can I cancel my Uber One membership? | Riders | Uber Help",
+      "attempts": [
+        {
+          "url": "https://help.uber.com/en/riders/article/how-can-i-cancel-my-uber-one-membership?nodeId=8f62fc7a-6cc9-4ac7-a59a-3f5627bf616c",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.uber.com/en/riders/article/how-can-i-cancel-my-uber-one-membership?nodeId=8f62fc7a-6cc9-4ac7-a59a-3f5627bf616c",
+          "title": "How can I cancel my Uber One membership? | Riders | Uber Help",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "instacart",
+      "name": "Instacart+",
+      "verified": true,
+      "url": "https://www.instacart.com/help/section/107169420/423178048",
+      "status": 200,
+      "finalUrl": "https://www.instacart.com/help/section/107169420/423178048",
+      "method": "fetch",
+      "title": "Instacart Help Center - Manage your Instacart+ membership",
+      "attempts": [
+        {
+          "url": "https://www.instacart.com/help/section/107169420/423178048",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.instacart.com/help/section/107169420/423178048",
+          "title": "Instacart Help Center - Manage your Instacart+ membership",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "walmart-plus",
+      "name": "Walmart+",
+      "verified": true,
+      "url": "https://www.walmart.com/help/article/manage-walmart-membership/126c9a990a944c3abd8531de52a87440",
+      "status": 200,
+      "finalUrl": "https://www.walmart.com/help/article/manage-walmart-membership/126c9a990a944c3abd8531de52a87440",
+      "method": "fetch",
+      "title": "Manage Walmart+ Membership - Walmart.com",
+      "attempts": [
+        {
+          "url": "https://www.walmart.com/help/article/manage-walmart-membership/126c9a990a944c3abd8531de52a87440",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.walmart.com/help/article/manage-walmart-membership/126c9a990a944c3abd8531de52a87440",
+          "title": "Manage Walmart+ Membership - Walmart.com",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "duolingo",
+      "name": "Duolingo Super",
+      "verified": true,
+      "url": "https://www.duolingo.com/help/cancel-my-super-duolingo-subscription",
+      "status": 200,
+      "finalUrl": "https://www.duolingo.com/help/cancel-my-super-duolingo-subscription",
+      "method": "fetch",
+      "title": "Duolingo",
+      "attempts": [
+        {
+          "url": "https://www.duolingo.com/help/cancel-my-super-duolingo-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.duolingo.com/help/cancel-my-super-duolingo-subscription",
+          "title": "Duolingo",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "headspace",
+      "name": "Headspace",
+      "verified": true,
+      "url": "https://help.headspace.com/hc/en-us/articles/115008364988-How-do-I-cancel-my-subscription",
+      "status": 200,
+      "finalUrl": "https://help.headspace.com/hc/en-us/articles/115008364988-How-do-I-cancel-my-subscription",
+      "method": "chromium",
+      "title": "How do I cancel my subscription? – Help Center",
+      "attempts": [
+        {
+          "url": "https://help.headspace.com/hc/en-us/articles/115008364988-How-do-I-cancel-my-subscription",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://help.headspace.com/hc/en-us/articles/115008364988-How-do-I-cancel-my-subscription",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://help.headspace.com/hc/en-us/articles/115008364988-How-do-I-cancel-my-subscription",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://help.headspace.com/hc/en-us/articles/115008364988-How-do-I-cancel-my-subscription",
+          "title": "How do I cancel my subscription? – Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "calm",
+      "name": "Calm",
+      "verified": true,
+      "url": "https://support.calm.com/hc/en-us/articles/115002473607-How-do-I-turn-off-auto-renewal-or-cancel-my-subscription-",
+      "status": 200,
+      "finalUrl": "https://support.calm.com/hc/en-us/articles/115002473607-How-to-Cancel-Your-Subscription-or-Free-Trial",
+      "method": "chromium",
+      "title": "How to Cancel Your Subscription or Free Trial – Calm Help Center",
+      "attempts": [
+        {
+          "url": "https://support.calm.com/hc/en-us/articles/115002473607-How-do-I-turn-off-auto-renewal-or-cancel-my-subscription-",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://support.calm.com/hc/en-us/articles/115002473607-How-do-I-turn-off-auto-renewal-or-cancel-my-subscription-",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://support.calm.com/hc/en-us/articles/115002473607-How-do-I-turn-off-auto-renewal-or-cancel-my-subscription-",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://support.calm.com/hc/en-us/articles/115002473607-How-to-Cancel-Your-Subscription-or-Free-Trial",
+          "title": "How to Cancel Your Subscription or Free Trial – Calm Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "nytimes",
+      "name": "The New York Times",
+      "verified": true,
+      "url": "https://help.nytimes.com/hc/en-us/articles/360003499613-Cancel-your-subscription",
+      "status": 200,
+      "finalUrl": "https://help.nytimes.com/115003007668-Manage-Account/360003499613-Cancel-Your-Subscription",
+      "method": "fetch",
+      "title": "Cancel Your Subscription - The New York Times Help Center",
+      "attempts": [
+        {
+          "url": "https://help.nytimes.com/hc/en-us/articles/360003499613-Cancel-your-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.nytimes.com/115003007668-Manage-Account/360003499613-Cancel-Your-Subscription",
+          "title": "Cancel Your Subscription - The New York Times Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "wsj",
+      "name": "The Wall Street Journal",
+      "verified": false,
+      "attempts": [
+        {
+          "url": "https://customercenter.wsj.com/",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://customercenter.wsj.com/public",
+          "title": "Customer Center - The Wall Street Journal",
+          "ok": false,
+          "reason": "not a cancel/manage page (\"Customer Center - The Wall Street Journal\")"
+        },
+        {
+          "url": "https://customercenter.wsj.com/",
+          "method": "chromium",
+          "status": 403,
+          "finalUrl": "https://customercenter.wsj.com/public",
+          "title": "Access to this page has been denied.",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://customercenter.wsj.com/home",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://customercenter.wsj.com/home",
+          "title": "Access to this page has been denied.",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://customercenter.wsj.com/home",
+          "method": "chromium",
+          "status": 403,
+          "finalUrl": "https://customercenter.wsj.com/home",
+          "title": "Access to this page has been denied.",
+          "ok": false,
+          "reason": "HTTP 403"
+        }
+      ]
+    },
+    {
+      "id": "washington-post",
+      "name": "The Washington Post",
+      "verified": true,
+      "url": "https://helpcenter.washingtonpost.com/hc/en-us/articles/360000177571-How-to-cancel-your-digital-only-subscription",
+      "status": 200,
+      "finalUrl": "https://helpcenter.washingtonpost.com/hc/en-us/articles/360000177571-How-to-cancel-your-digital-only-subscription",
+      "method": "chromium",
+      "title": "How to cancel your digital-only subscription – The Washington Post",
+      "attempts": [
+        {
+          "url": "https://helpcenter.washingtonpost.com/hc/en-us/articles/360000177571-How-to-cancel-your-digital-only-subscription",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://helpcenter.washingtonpost.com/hc/en-us/articles/360000177571-How-to-cancel-your-digital-only-subscription",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://helpcenter.washingtonpost.com/hc/en-us/articles/360000177571-How-to-cancel-your-digital-only-subscription",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://helpcenter.washingtonpost.com/hc/en-us/articles/360000177571-How-to-cancel-your-digital-only-subscription",
+          "title": "How to cancel your digital-only subscription – The Washington Post",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn Premium",
+      "verified": true,
+      "url": "https://www.linkedin.com/help/linkedin/answer/a545578",
+      "status": 200,
+      "finalUrl": "https://www.linkedin.com/help/linkedin/answer/a545578",
+      "method": "fetch",
+      "title": "Cancel LinkedIn Premium subscription | LinkedIn Help",
+      "attempts": [
+        {
+          "url": "https://www.linkedin.com/help/linkedin/answer/a545578",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.linkedin.com/help/linkedin/answer/a545578",
+          "title": "Cancel LinkedIn Premium subscription | LinkedIn Help",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "peloton",
+      "name": "Peloton",
+      "verified": false,
+      "attempts": [
+        {
+          "url": "https://support.onepeloton.com/hc/en-us/articles/205541225-Managing-Your-All-Access-Membership",
+          "method": "fetch",
+          "status": 401,
+          "finalUrl": "https://support.onepeloton.com/hc/en-us/articles/205541225-Managing-Your-All-Access-Membership",
+          "title": "",
+          "ok": false,
+          "reason": "HTTP 401"
+        },
+        {
+          "url": "https://support.onepeloton.com/hc/en-us/articles/205541225-Managing-Your-All-Access-Membership",
+          "method": "chromium",
+          "status": 401,
+          "finalUrl": "https://support.onepeloton.com/login?ec=302&inst=Us&startURL=%2Fhc%2Fen-us%2Farticles%2F205541225-Managing-Your-All-Access-Membership",
+          "title": "Login | Peloton Support",
+          "ok": false,
+          "reason": "HTTP 401"
+        },
+        {
+          "url": "https://support.onepeloton.com/s/article/4406216398996-Cancel-Peloton-Membership",
+          "method": "fetch",
+          "status": 404,
+          "finalUrl": "https://support.onepeloton.com/s/article/4406216398996-Cancel-Peloton-Membership",
+          "title": "Peloton Support",
+          "ok": false,
+          "reason": "HTTP 404"
+        },
+        {
+          "url": "https://support.onepeloton.com/s/article/4406216398996-Cancel-Peloton-Membership",
+          "method": "chromium",
+          "status": 404,
+          "finalUrl": "https://support.onepeloton.com/s/article/4406216398996-Cancel-Peloton-Membership",
+          "title": "Error",
+          "ok": false,
+          "reason": "HTTP 404"
+        },
+        {
+          "url": "https://support.onepeloton.com/s/article/360042346672-Canceling-Your-Peloton-Membership",
+          "method": "fetch",
+          "status": 404,
+          "finalUrl": "https://support.onepeloton.com/s/article/360042346672-Canceling-Your-Peloton-Membership",
+          "title": "Peloton Support",
+          "ok": false,
+          "reason": "HTTP 404"
+        },
+        {
+          "url": "https://support.onepeloton.com/s/article/360042346672-Canceling-Your-Peloton-Membership",
+          "method": "chromium",
+          "status": 404,
+          "finalUrl": "https://support.onepeloton.com/s/article/360042346672-Canceling-Your-Peloton-Membership",
+          "title": "Error",
+          "ok": false,
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "id": "strava",
+      "name": "Strava",
+      "verified": true,
+      "url": "https://support.strava.com/en-us/articles/15401936-how-do-i-cancel-my-subscription",
+      "status": 200,
+      "finalUrl": "https://support.strava.com/en-us/articles/15401936-how-do-i-cancel-my-subscription",
+      "method": "fetch",
+      "title": "How do I Cancel my Subscription? | Strava Help Center",
+      "attempts": [
+        {
+          "url": "https://support.strava.com/en-us/articles/15401936-how-do-i-cancel-my-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.strava.com/en-us/articles/15401936-how-do-i-cancel-my-subscription",
+          "title": "How do I Cancel my Subscription? | Strava Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "patreon",
+      "name": "Patreon",
+      "verified": true,
+      "url": "https://support.patreon.com/hc/en-us/articles/360005502572-Canceling-a-paid-membership",
+      "status": 200,
+      "finalUrl": "https://support.patreon.com/hc/en-us/articles/360005502572-Canceling-a-paid-membership",
+      "method": "chromium",
+      "title": "Canceling a paid membership – Patreon Help Center",
+      "attempts": [
+        {
+          "url": "https://support.patreon.com/hc/en-us/articles/360005502572-Canceling-a-paid-membership",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://support.patreon.com/hc/en-us/articles/360005502572-Canceling-a-paid-membership",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://support.patreon.com/hc/en-us/articles/360005502572-Canceling-a-paid-membership",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://support.patreon.com/hc/en-us/articles/360005502572-Canceling-a-paid-membership",
+          "title": "Canceling a paid membership – Patreon Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "twitch",
+      "name": "Twitch",
+      "verified": false,
+      "attempts": [
+        {
+          "url": "https://help.twitch.tv/s/article/how-to-cancel-a-subscription",
+          "method": "fetch",
+          "status": 404,
+          "finalUrl": "https://help.twitch.tv/s/article/how-to-cancel-a-subscription",
+          "title": "Twitch Help Portal",
+          "ok": false,
+          "reason": "HTTP 404"
+        },
+        {
+          "url": "https://help.twitch.tv/s/article/how-to-cancel-a-subscription",
+          "method": "chromium",
+          "status": 404,
+          "finalUrl": "https://help.twitch.tv/s/article/how-to-cancel-a-subscription",
+          "title": "Error",
+          "ok": false,
+          "reason": "HTTP 404"
+        }
+      ]
+    },
+    {
+      "id": "discord",
+      "name": "Discord Nitro",
+      "verified": true,
+      "url": "https://support.discord.com/hc/en-us/articles/19580873036695-How-to-Cancel-your-Nitro-Subscription",
+      "status": 200,
+      "finalUrl": "https://support.discord.com/hc/en-us/articles/19580873036695-How-to-Cancel-your-Nitro-Subscription",
+      "method": "chromium",
+      "title": "How to Cancel your Nitro Subscription – Discord",
+      "attempts": [
+        {
+          "url": "https://support.discord.com/hc/en-us/articles/19580873036695-How-to-Cancel-your-Nitro-Subscription",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://support.discord.com/hc/en-us/articles/19580873036695-How-to-Cancel-your-Nitro-Subscription",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://support.discord.com/hc/en-us/articles/19580873036695-How-to-Cancel-your-Nitro-Subscription",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://support.discord.com/hc/en-us/articles/19580873036695-How-to-Cancel-your-Nitro-Subscription",
+          "title": "How to Cancel your Nitro Subscription – Discord",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "crunchyroll",
+      "name": "Crunchyroll",
+      "verified": false,
+      "attempts": [
+        {
+          "url": "https://help.crunchyroll.com/hc/en-us/articles/46070271612820-How-can-I-cancel-my-Premium-Membership",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.crunchyroll.com/",
+          "title": "Crunchyroll Help Center",
+          "ok": false,
+          "reason": "redirected to home page"
+        },
+        {
+          "url": "https://help.crunchyroll.com/hc/en-us/articles/46070271612820-How-can-I-cancel-my-Premium-Membership",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://help.crunchyroll.com/",
+          "title": "Support & Customer Service | Crunchyroll Help",
+          "ok": false,
+          "reason": "redirected to home page"
+        },
+        {
+          "url": "https://help.crunchyroll.com/hc/en-us/articles/360041719931-How-do-I-cancel-my-Premium-Membership-",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.crunchyroll.com/",
+          "title": "Crunchyroll Help Center",
+          "ok": false,
+          "reason": "redirected to home page"
+        },
+        {
+          "url": "https://help.crunchyroll.com/hc/en-us/articles/360041719931-How-do-I-cancel-my-Premium-Membership-",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://help.crunchyroll.com/",
+          "title": "Support & Customer Service | Crunchyroll Help",
+          "ok": false,
+          "reason": "redirected to home page"
+        },
+        {
+          "url": "https://help.crunchyroll.com/hc/en-us/articles/206513166",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.crunchyroll.com/",
+          "title": "Crunchyroll Help Center",
+          "ok": false,
+          "reason": "redirected to home page"
+        },
+        {
+          "url": "https://help.crunchyroll.com/hc/en-us/articles/206513166",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://help.crunchyroll.com/",
+          "title": "Support & Customer Service | Crunchyroll Help",
+          "ok": false,
+          "reason": "redirected to home page"
+        }
+      ]
+    },
+    {
+      "id": "siriusxm",
+      "name": "SiriusXM",
+      "verified": true,
+      "url": "https://www.siriusxm.com/cancel",
+      "status": 200,
+      "finalUrl": "https://www.siriusxm.com/help/manage-or-cancel-service",
+      "method": "fetch",
+      "title": "Manage or Cancel Service | SiriusXM Help",
+      "attempts": [
+        {
+          "url": "https://care.siriusxm.com/cancel_view.action",
+          "method": "fetch",
+          "status": 404,
+          "finalUrl": "https://www.siriusxm.com/page-not-found",
+          "title": "",
+          "ok": false,
+          "reason": "HTTP 404"
+        },
+        {
+          "url": "https://care.siriusxm.com/cancel_view.action",
+          "method": "chromium",
+          "status": 404,
+          "finalUrl": "https://www.siriusxm.com/page-not-found",
+          "title": "",
+          "ok": false,
+          "reason": "HTTP 404"
+        },
+        {
+          "url": "https://www.siriusxm.com/cancel",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.siriusxm.com/help/manage-or-cancel-service",
+          "title": "Manage or Cancel Service | SiriusXM Help",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "grammarly",
+      "name": "Grammarly",
+      "verified": true,
+      "url": "https://support.grammarly.com/hc/en-us/articles/115000090172-How-do-I-cancel-my-subscription",
+      "status": 200,
+      "finalUrl": "https://support.grammarly.com/hc/en-us/articles/115000090172-How-do-I-cancel-my-subscription",
+      "method": "fetch",
+      "title": "How do I cancel my subscription? &ndash; Grammarly Support",
+      "attempts": [
+        {
+          "url": "https://support.grammarly.com/hc/en-us/articles/115000090172-How-do-I-cancel-my-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.grammarly.com/hc/en-us/articles/115000090172-How-do-I-cancel-my-subscription",
+          "title": "How do I cancel my subscription? &ndash; Grammarly Support",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "verified": true,
+      "url": "https://www.canva.com/help/cancel-canva-plan/",
+      "status": 200,
+      "finalUrl": "https://www.canva.com/help/cancel-canva-plan/",
+      "method": "chromium",
+      "title": "Cancel a Canva plan - Canva Help Center",
+      "attempts": [
+        {
+          "url": "https://www.canva.com/help/cancel-canva-plan/",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://www.canva.com/help/cancel-canva-plan/",
+          "title": "Canva",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://www.canva.com/help/cancel-canva-plan/",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://www.canva.com/help/cancel-canva-plan/",
+          "title": "Cancel a Canva plan - Canva Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "name": "Notion",
+      "verified": true,
+      "url": "https://www.notion.com/help/upgrade-or-downgrade-your-plan",
+      "status": 200,
+      "finalUrl": "https://www.notion.com/help/upgrade-or-downgrade-your-plan",
+      "method": "fetch",
+      "title": "Change your Notion plan | Notion Help",
+      "attempts": [
+        {
+          "url": "https://www.notion.com/help/upgrade-or-downgrade-your-plan",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.notion.com/help/upgrade-or-downgrade-your-plan",
+          "title": "Change your Notion plan | Notion Help",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "evernote",
+      "name": "Evernote",
+      "verified": true,
+      "url": "https://help.evernote.com/hc/en-us/articles/115005949208-How-to-cancel-your-Evernote-subscription",
+      "status": 200,
+      "finalUrl": "https://help.evernote.com/hc/en-us/articles/115005949208-How-to-cancel-your-Evernote-subscription",
+      "method": "chromium",
+      "title": "How to cancel your Evernote subscription – Evernote Help & Learning",
+      "attempts": [
+        {
+          "url": "https://help.evernote.com/hc/en-us/articles/115005949208-How-to-cancel-your-Evernote-subscription",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://help.evernote.com/hc/en-us/articles/115005949208-How-to-cancel-your-Evernote-subscription",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://help.evernote.com/hc/en-us/articles/115005949208-How-to-cancel-your-Evernote-subscription",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://help.evernote.com/hc/en-us/articles/115005949208-How-to-cancel-your-Evernote-subscription",
+          "title": "How to cancel your Evernote subscription – Evernote Help & Learning",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "1password",
+      "name": "1Password",
+      "verified": true,
+      "url": "https://support.1password.com/manage-subscription/",
+      "status": 200,
+      "finalUrl": "https://support.1password.com/manage-subscription/",
+      "method": "fetch",
+      "title": "Manage your 1Password subscription on 1Password.com | 1Password Support",
+      "attempts": [
+        {
+          "url": "https://support.1password.com/manage-subscription/",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.1password.com/manage-subscription/",
+          "title": "Manage your 1Password subscription on 1Password.com | 1Password Support",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "nordvpn",
+      "name": "NordVPN",
+      "verified": true,
+      "url": "https://support.nordvpn.com/hc/en-us/articles/19556844985489-How-to-cancel-auto-renewal-for-your-NordVPN-subscription",
+      "status": 200,
+      "finalUrl": "https://support.nordvpn.com/hc/en-us/articles/19556844985489-How-to-cancel-auto-renewal-for-your-NordVPN-subscription",
+      "method": "fetch",
+      "title": "How to cancel auto-renewal for your NordVPN subscription &ndash; Live Chat, VPN Setup, Troubleshooting | NordVPN Customer Support",
+      "attempts": [
+        {
+          "url": "https://support.nordvpn.com/hc/en-us/articles/19556844985489-How-to-cancel-auto-renewal-for-your-NordVPN-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.nordvpn.com/hc/en-us/articles/19556844985489-How-to-cancel-auto-renewal-for-your-NordVPN-subscription",
+          "title": "How to cancel auto-renewal for your NordVPN subscription &ndash; Live Chat, VPN Setup, Troubleshooting | NordVPN Customer Support",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "expressvpn",
+      "name": "ExpressVPN",
+      "verified": true,
+      "url": "https://www.expressvpn.com/support/manage-account/cancel-expressvpn-subscription/",
+      "status": 200,
+      "finalUrl": "https://www.expressvpn.com/support/manage-account/cancel-expressvpn-subscription/",
+      "method": "fetch",
+      "title": "How to Cancel Your ExpressVPN Subscription | ExpressVPN",
+      "attempts": [
+        {
+          "url": "https://www.expressvpn.com/support/manage-account/cancel-expressvpn-subscription/",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.expressvpn.com/support/manage-account/cancel-expressvpn-subscription/",
+          "title": "How to Cancel Your ExpressVPN Subscription | ExpressVPN",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "hellofresh",
+      "name": "HelloFresh",
+      "verified": true,
+      "url": "https://www.hellofresh.com/about/how-to-cancel-hellofresh-subscription",
+      "status": 200,
+      "finalUrl": "https://www.hellofresh.com/about/how-to-cancel-hellofresh-subscription",
+      "method": "fetch",
+      "title": "How to Cancel a HelloFresh Subscription | HelloFresh",
+      "attempts": [
+        {
+          "url": "https://support.hellofresh.com/hc/en-us/articles/115008544627-How-do-I-cancel-",
+          "method": "fetch",
+          "ok": false,
+          "reason": "fetch failed"
+        },
+        {
+          "url": "https://support.hellofresh.com/hc/en-us/articles/115008544627-How-do-I-cancel-",
+          "method": "chromium",
+          "ok": false,
+          "reason": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://support.hellofresh.com/hc/en-us/articles/115008544627-How-do-I-cancel-"
+        },
+        {
+          "url": "https://www.hellofresh.com/about/how-to-cancel-hellofresh-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.hellofresh.com/about/how-to-cancel-hellofresh-subscription",
+          "title": "How to Cancel a HelloFresh Subscription | HelloFresh",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "pandora",
+      "name": "Pandora",
+      "verified": true,
+      "url": "https://help.pandora.com/s/article/Cancel-your-Subscription-1519949295562?language=en_US",
+      "status": 200,
+      "finalUrl": "https://help.pandora.com/s/article/Cancel-your-Subscription-1519949295562?language=en_US",
+      "method": "fetch",
+      "title": "Pandora Android FAQ",
+      "attempts": [
+        {
+          "url": "https://help.pandora.com/s/article/Cancel-your-Subscription-1519949295562?language=en_US",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.pandora.com/s/article/Cancel-your-Subscription-1519949295562?language=en_US",
+          "title": "Pandora Android FAQ",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "sling",
+      "name": "Sling TV",
+      "verified": true,
+      "url": "https://www.sling.com/help/en/account-questions/account-changes/pause-cancel-subscription",
+      "status": 200,
+      "finalUrl": "https://www.sling.com/help/en/account-questions/account-changes/pause-cancel-subscription",
+      "method": "fetch",
+      "title": "Cancel your Sling subscription | Sling TV Help",
+      "attempts": [
+        {
+          "url": "https://www.sling.com/help/en/account-questions/account-changes/pause-cancel-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.sling.com/help/en/account-questions/account-changes/pause-cancel-subscription",
+          "title": "Cancel your Sling subscription | Sling TV Help",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "fubo",
+      "name": "Fubo",
+      "verified": true,
+      "url": "https://support.fubo.tv/hc/en-us/articles/360021527991-How-do-I-Cancel-My-Fubo-Subscription",
+      "status": 200,
+      "finalUrl": "https://support.fubo.tv/hc/en-us/articles/360021527991-How-do-I-Cancel-My-Fubo-Subscription",
+      "method": "chromium",
+      "title": "How do I Cancel My Fubo Subscription? – Help Center",
+      "attempts": [
+        {
+          "url": "https://support.fubo.tv/hc/en-us/articles/360021527991-How-do-I-Cancel-My-Fubo-Subscription",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://support.fubo.tv/hc/en-us/articles/360021527991-How-do-I-Cancel-My-Fubo-Subscription",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://support.fubo.tv/hc/en-us/articles/360021527991-How-do-I-Cancel-My-Fubo-Subscription",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://support.fubo.tv/hc/en-us/articles/360021527991-How-do-I-Cancel-My-Fubo-Subscription",
+          "title": "How do I Cancel My Fubo Subscription? – Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "espn-plus",
+      "name": "ESPN+",
+      "verified": true,
+      "url": "https://support.espn.com/hc/en-us/articles/40377550796308-Cancelling-Your-ESPN-Select-or-Unlimited-Subscription",
+      "status": 200,
+      "finalUrl": "https://support.espn.com/hc/en-us/articles/40377550796308-Cancelling-Your-ESPN-Select-or-Unlimited-Subscription",
+      "method": "fetch",
+      "title": "Cancelling Your ESPN Select or Unlimited Subscription &ndash; ESPN Fan Support",
+      "attempts": [
+        {
+          "url": "https://support.espn.com/hc/en-us/articles/40377550796308-Cancelling-Your-ESPN-Select-or-Unlimited-Subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.espn.com/hc/en-us/articles/40377550796308-Cancelling-Your-ESPN-Select-or-Unlimited-Subscription",
+          "title": "Cancelling Your ESPN Select or Unlimited Subscription &ndash; ESPN Fan Support",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "starz",
+      "name": "STARZ",
+      "verified": true,
+      "url": "https://support.starz.com/en_us/how-do-i-cancel-my-starz-subscription-SJdqfEWyo",
+      "status": 200,
+      "finalUrl": "https://support.starz.com/en_us/how-do-i-cancel-my-starz-subscription-SJdqfEWyo",
+      "method": "fetch",
+      "title": "How do I cancel my STARZ subscription?",
+      "attempts": [
+        {
+          "url": "https://support.starz.com/en_us/how-do-i-cancel-my-starz-subscription-SJdqfEWyo",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.starz.com/en_us/how-do-i-cancel-my-starz-subscription-SJdqfEWyo",
+          "title": "How do I cancel my STARZ subscription?",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "name": "GitHub",
+      "verified": true,
+      "url": "https://docs.github.com/en/billing/managing-the-plan-for-your-github-account/downgrading-your-accounts-plan",
+      "status": 200,
+      "finalUrl": "https://docs.github.com/en/billing/how-tos/manage-plan-and-licenses/downgrade-plan",
+      "method": "fetch",
+      "title": "Downgrading your account&#x27;s plan - GitHub Docs",
+      "attempts": [
+        {
+          "url": "https://docs.github.com/en/billing/managing-the-plan-for-your-github-account/downgrading-your-accounts-plan",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://docs.github.com/en/billing/how-tos/manage-plan-and-licenses/downgrade-plan",
+          "title": "Downgrading your account&#x27;s plan - GitHub Docs",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "verified": false,
+      "attempts": [
+        {
+          "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060887",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060887",
+          "title": "Zoom Knowledge Article",
+          "ok": false,
+          "reason": "not a cancel/manage page (\"Zoom Knowledge Article\")"
+        },
+        {
+          "url": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060887",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0060887",
+          "title": "Support Articles - Zoom Support",
+          "ok": false,
+          "reason": "page says not found"
+        }
+      ]
+    },
+    {
+      "id": "squarespace",
+      "name": "Squarespace",
+      "verified": true,
+      "url": "https://support.squarespace.com/hc/en-us/articles/205810508-Cancel-your-website-subscription",
+      "status": 200,
+      "finalUrl": "https://support.squarespace.com/hc/en-us/articles/205810508-Cancel-your-website-subscription",
+      "method": "fetch",
+      "title": "Cancel your website subscription &ndash; Squarespace Help Center",
+      "attempts": [
+        {
+          "url": "https://support.squarespace.com/hc/en-us/articles/205810508-Cancel-your-website-subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.squarespace.com/hc/en-us/articles/205810508-Cancel-your-website-subscription",
+          "title": "Cancel your website subscription &ndash; Squarespace Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "planet-fitness",
+      "name": "Planet Fitness",
+      "verified": true,
+      "url": "https://www.planetfitness.com/about-planet-fitness/customer-service",
+      "status": 200,
+      "finalUrl": "https://www.planetfitness.com/about-planet-fitness/customer-service",
+      "method": "chromium",
+      "title": "Planet Fitness Customer Service and FAQ | Planet Fitness",
+      "attempts": [
+        {
+          "url": "https://www.planetfitness.com/about-planet-fitness/customer-service",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://www.planetfitness.com/about-planet-fitness/customer-service",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://www.planetfitness.com/about-planet-fitness/customer-service",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://www.planetfitness.com/about-planet-fitness/customer-service",
+          "title": "Planet Fitness Customer Service and FAQ | Planet Fitness",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "tinder",
+      "name": "Tinder",
+      "verified": true,
+      "url": "https://www.help.tinder.com/hc/en-us/articles/115003554466-Cancel-your-subscription",
+      "status": 200,
+      "finalUrl": "https://www.help.tinder.com/hc/en-us/articles/115003554466-Cancel-your-subscription",
+      "method": "chromium",
+      "title": "Cancel your subscription – Tinder",
+      "attempts": [
+        {
+          "url": "https://www.help.tinder.com/hc/en-us/articles/115003554466-Cancel-your-subscription",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://www.help.tinder.com/hc/en-us/articles/115003554466-Cancel-your-subscription",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://www.help.tinder.com/hc/en-us/articles/115003554466-Cancel-your-subscription",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://www.help.tinder.com/hc/en-us/articles/115003554466-Cancel-your-subscription",
+          "title": "Cancel your subscription – Tinder",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "bumble",
+      "name": "Bumble",
+      "verified": true,
+      "url": "https://bumble.com/help/how-can-i-cancel-my-bumble-boost--bumble-premium-subscription",
+      "status": 200,
+      "finalUrl": "https://support.bumble.com/hc/en-us/articles/28534541366045-Canceling-subscriptions",
+      "method": "chromium",
+      "title": "Canceling subscriptions – Bumble Support",
+      "attempts": [
+        {
+          "url": "https://bumble.com/help/how-can-i-cancel-my-bumble-boost--bumble-premium-subscription",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://support.bumble.com/hc/articles/28534541366045-Canceling-subscriptions",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://bumble.com/help/how-can-i-cancel-my-bumble-boost--bumble-premium-subscription",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://support.bumble.com/hc/en-us/articles/28534541366045-Canceling-subscriptions",
+          "title": "Canceling subscriptions – Bumble Support",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "hinge",
+      "name": "Hinge",
+      "verified": true,
+      "url": "https://help.hinge.co/hc/en-us/articles/36311108859411-Adjusting-or-Canceling-Your-Subscription",
+      "status": 200,
+      "finalUrl": "https://help.hinge.co/hc/en-us/articles/36311108859411-Adjusting-or-Canceling-Your-Subscription",
+      "method": "chromium",
+      "title": "Adjusting or Canceling Your Subscription – Hinge",
+      "attempts": [
+        {
+          "url": "https://help.hinge.co/hc/en-us/articles/36311108859411-Adjusting-or-Canceling-Your-Subscription",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://help.hinge.co/hc/en-us/articles/36311108859411-Adjusting-or-Canceling-Your-Subscription",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://help.hinge.co/hc/en-us/articles/36311108859411-Adjusting-or-Canceling-Your-Subscription",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://help.hinge.co/hc/en-us/articles/36311108859411-Adjusting-or-Canceling-Your-Subscription",
+          "title": "Adjusting or Canceling Your Subscription – Hinge",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "match",
+      "name": "Match",
+      "verified": true,
+      "url": "https://help.match.com/hc/en-us/articles/6077124196891-Canceling-a-Match-Subscription",
+      "status": 200,
+      "finalUrl": "https://help.match.com/hc/en-us/articles/6077124196891-Canceling-a-Match-Subscription",
+      "method": "chromium",
+      "title": "Canceling a Match Subscription – Match",
+      "attempts": [
+        {
+          "url": "https://help.match.com/hc/en-us/articles/6077124196891-Canceling-a-Match-Subscription",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://help.match.com/hc/en-us/articles/6077124196891-Canceling-a-Match-Subscription",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://help.match.com/hc/en-us/articles/6077124196891-Canceling-a-Match-Subscription",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://help.match.com/hc/en-us/articles/6077124196891-Canceling-a-Match-Subscription",
+          "title": "Canceling a Match Subscription – Match",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "ancestry",
+      "name": "Ancestry",
+      "verified": true,
+      "url": "https://support.ancestry.com/s/article/Canceling-a-Subscription",
+      "status": 200,
+      "finalUrl": "https://help.ancestry.com/hc/en-us/articles/53933302397331-Canceling-a-Membership",
+      "method": "fetch",
+      "title": "Canceling a Membership &ndash; Ancestry",
+      "attempts": [
+        {
+          "url": "https://support.ancestry.com/s/article/Canceling-a-Subscription",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.ancestry.com/hc/en-us/articles/53933302397331-Canceling-a-Membership",
+          "title": "Canceling a Membership &ndash; Ancestry",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "babbel",
+      "name": "Babbel",
+      "verified": true,
+      "url": "https://support.babbel.com/hc/en-us/articles/205600298-Canceling-a-subscription",
+      "status": 200,
+      "finalUrl": "https://support.babbel.com/hc/en-us/articles/205600298-Canceling-a-subscription",
+      "method": "chromium",
+      "title": "Canceling a subscription – Babbel Help Center",
+      "attempts": [
+        {
+          "url": "https://support.babbel.com/hc/en-us/articles/205600298-Canceling-a-subscription",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://support.babbel.com/hc/en-us/articles/205600298-Canceling-a-subscription",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://support.babbel.com/hc/en-us/articles/205600298-Canceling-a-subscription",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://support.babbel.com/hc/en-us/articles/205600298-Canceling-a-subscription",
+          "title": "Canceling a subscription – Babbel Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "masterclass",
+      "name": "MasterClass",
+      "verified": true,
+      "url": "https://www.masterclass.com/help-center/masterclass/answers/cancelling-your-subscription-renewal--id--M2McWBvNTh-WNRR6llmkAw",
+      "status": 200,
+      "finalUrl": "https://www.masterclass.com/help-center/masterclass/answers/cancelling-your-subscription-renewal--id--M2McWBvNTh-WNRR6llmkAw",
+      "method": "chromium",
+      "title": "Cancelling Your Subscription Renewal | MasterClass Help Center | MasterClass",
+      "attempts": [
+        {
+          "url": "https://www.masterclass.com/help-center/masterclass/answers/cancelling-your-subscription-renewal--id--M2McWBvNTh-WNRR6llmkAw",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://www.masterclass.com/help-center/masterclass/answers/cancelling-your-subscription-renewal--id--M2McWBvNTh-WNRR6llmkAw",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://www.masterclass.com/help-center/masterclass/answers/cancelling-your-subscription-renewal--id--M2McWBvNTh-WNRR6llmkAw",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://www.masterclass.com/help-center/masterclass/answers/cancelling-your-subscription-renewal--id--M2McWBvNTh-WNRR6llmkAw",
+          "title": "Cancelling Your Subscription Renewal | MasterClass Help Center | MasterClass",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "skillshare",
+      "name": "Skillshare",
+      "verified": true,
+      "url": "https://help.skillshare.com/hc/en-us/articles/115001701651-How-do-I-cancel-my-Skillshare-subscription",
+      "status": 200,
+      "finalUrl": "https://help.skillshare.com/hc/en-us/articles/115001701651-How-do-I-cancel-my-Skillshare-subscription",
+      "method": "chromium",
+      "title": "How do I cancel my Skillshare subscription? – Skillshare Help Center",
+      "attempts": [
+        {
+          "url": "https://help.skillshare.com/hc/en-us/articles/115001701651-How-do-I-cancel-my-Skillshare-subscription",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://help.skillshare.com/hc/en-us/articles/115001701651-How-do-I-cancel-my-Skillshare-subscription",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://help.skillshare.com/hc/en-us/articles/115001701651-How-do-I-cancel-my-Skillshare-subscription",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://help.skillshare.com/hc/en-us/articles/115001701651-How-do-I-cancel-my-Skillshare-subscription",
+          "title": "How do I cancel my Skillshare subscription? – Skillshare Help Center",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "coursera",
+      "name": "Coursera Plus",
+      "verified": true,
+      "url": "https://www.coursera.support/s/article/learner-000001189?language=en_US",
+      "status": 200,
+      "finalUrl": "https://www.coursera.support/s/article/learner-000001189?language=en_US",
+      "method": "chromium",
+      "title": "Cancel a subscription",
+      "attempts": [
+        {
+          "url": "https://www.coursera.support/s/article/learner-000001189?language=en_US",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.coursera.support/s/article/learner-000001189?language=en_US",
+          "title": "Coursera Help Center",
+          "ok": false,
+          "reason": "not a cancel/manage page (\"Coursera Help Center\")"
+        },
+        {
+          "url": "https://www.coursera.support/s/article/learner-000001189?language=en_US",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://www.coursera.support/s/article/learner-000001189?language=en_US",
+          "title": "Cancel a subscription",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "tidal",
+      "name": "TIDAL",
+      "verified": true,
+      "url": "https://support.tidal.com/hc/en-us/articles/201314601-Cancel-Tidal-Subscription-or-Trial",
+      "status": 200,
+      "finalUrl": "https://support.tidal.com/hc/en-us/articles/201314601-Cancel-Tidal-Subscription-or-Trial",
+      "method": "chromium",
+      "title": "Cancel Tidal Subscription or Trial – TIDAL Support",
+      "attempts": [
+        {
+          "url": "https://support.tidal.com/hc/en-us/articles/201314601-Cancel-Tidal-Subscription-or-Trial",
+          "method": "fetch",
+          "status": 403,
+          "finalUrl": "https://support.tidal.com/hc/en-us/articles/201314601-Cancel-Tidal-Subscription-or-Trial",
+          "title": "Just a moment...",
+          "ok": false,
+          "reason": "HTTP 403"
+        },
+        {
+          "url": "https://support.tidal.com/hc/en-us/articles/201314601-Cancel-Tidal-Subscription-or-Trial",
+          "method": "chromium",
+          "status": 200,
+          "finalUrl": "https://support.tidal.com/hc/en-us/articles/201314601-Cancel-Tidal-Subscription-or-Trial",
+          "title": "Cancel Tidal Subscription or Trial – TIDAL Support",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "amazon-music",
+      "name": "Amazon Music Unlimited",
+      "verified": true,
+      "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GCRZL3F2UZMNP3T3",
+      "status": 200,
+      "finalUrl": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GCRZL3F2UZMNP3T3",
+      "method": "fetch",
+      "title": "How to Cancel Amazon Music Unlimited Subscription - Amazon Customer Service",
+      "attempts": [
+        {
+          "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GCRZL3F2UZMNP3T3",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GCRZL3F2UZMNP3T3",
+          "title": "How to Cancel Amazon Music Unlimited Subscription - Amazon Customer Service",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "philo",
+      "name": "Philo",
+      "verified": true,
+      "url": "https://help.philo.com/account-billing/cancel/",
+      "status": 200,
+      "finalUrl": "https://help.philo.com/account-billing/cancel/",
+      "method": "fetch",
+      "title": "How to Cancel Your Philo Subscription | Philo Help",
+      "attempts": [
+        {
+          "url": "https://help.philo.com/account-billing/cancel/",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://help.philo.com/account-billing/cancel/",
+          "title": "How to Cancel Your Philo Subscription | Philo Help",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "amc-plus",
+      "name": "AMC+",
+      "verified": true,
+      "url": "https://support.amcplus.com/kb/guide/en/how-do-i-cancel-amc-iIPM4dreK2/Steps/3763641",
+      "status": 200,
+      "finalUrl": "https://support.amcplus.com/kb/guide/en/how-do-i-cancel-amc-iIPM4dreK2/Steps/3763641",
+      "method": "fetch",
+      "title": "How do I cancel AMC+? | AMC+ Customer KB",
+      "attempts": [
+        {
+          "url": "https://support.amcplus.com/kb/guide/en/how-do-i-cancel-amc-iIPM4dreK2/Steps/3763641",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.amcplus.com/kb/guide/en/how-do-i-cancel-amc-iIPM4dreK2/Steps/3763641",
+          "title": "How do I cancel AMC+? | AMC+ Customer KB",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "verified": true,
+      "url": "https://slack.com/help/articles/48764458651795-Change-or-cancel-your-paid-Slack-plan",
+      "status": 200,
+      "finalUrl": "https://slack.com/help/articles/48764458651795-Change-or-cancel-your-paid-Slack-plan",
+      "method": "fetch",
+      "title": "Change or cancel your paid Slack plan | Slack",
+      "attempts": [
+        {
+          "url": "https://slack.com/help/articles/48764458651795-Change-or-cancel-your-paid-Slack-plan",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://slack.com/help/articles/48764458651795-Change-or-cancel-your-paid-Slack-plan",
+          "title": "Change or cancel your paid Slack plan | Slack",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "wix",
+      "name": "Wix",
+      "verified": true,
+      "url": "https://support.wix.com/en/article/canceling-a-wix-premium-plan",
+      "status": 200,
+      "finalUrl": "https://support.wix.com/en/article/canceling-a-wix-premium-plan",
+      "method": "fetch",
+      "title": "Canceling a Wix Premium or Studio Plan | Help Center | Wix.com",
+      "attempts": [
+        {
+          "url": "https://support.wix.com/en/article/canceling-a-wix-premium-plan",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://support.wix.com/en/article/canceling-a-wix-premium-plan",
+          "title": "Canceling a Wix Premium or Studio Plan | Help Center | Wix.com",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "noom",
+      "name": "Noom",
+      "verified": true,
+      "url": "https://www.noom.com/support/faqs/subscription-and-billing/2025/10/how-to-cancel-your-noom-subscription-or-trial/",
+      "status": 200,
+      "finalUrl": "https://www.noom.com/support/faqs/subscription-and-billing/2025/10/how-to-cancel-your-noom-subscription-or-trial/",
+      "method": "fetch",
+      "title": "How to Cancel Your Noom Subscription or Trial - Noom: Lose weight and keep it off.",
+      "attempts": [
+        {
+          "url": "https://www.noom.com/support/faqs/subscription-and-billing/2025/10/how-to-cancel-your-noom-subscription-or-trial/",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://www.noom.com/support/faqs/subscription-and-billing/2025/10/how-to-cancel-your-noom-subscription-or-trial/",
+          "title": "How to Cancel Your Noom Subscription or Trial - Noom: Lose weight and keep it off.",
+          "ok": true
+        }
+      ]
+    },
+    {
+      "id": "icloud-google-workspace",
+      "name": "Google Workspace",
+      "verified": true,
+      "url": "https://support.google.com/a/answer/1257646",
+      "status": 200,
+      "finalUrl": "https://knowledge.workspace.google.com/admin/billing/cancel-google-workspace?visit_id=639287989320794732-1143512931&rd=1",
+      "method": "fetch",
+      "title": "Cancel Google Workspace &nbsp;|&nbsp; Billing & subscriptions &nbsp;|&nbsp; Google Workspace Help",
+      "attempts": [
+        {
+          "url": "https://support.google.com/a/answer/1257646",
+          "method": "fetch",
+          "status": 200,
+          "finalUrl": "https://knowledge.workspace.google.com/admin/billing/cancel-google-workspace?visit_id=639287989320794732-1143512931&rd=1",
+          "title": "Cancel Google Workspace &nbsp;|&nbsp; Billing & subscriptions &nbsp;|&nbsp; Google Workspace Help",
+          "ok": true
+        }
+      ]
+    }
+  ]
+}

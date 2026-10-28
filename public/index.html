@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0d0d0c">
+  <meta name="description" content="Drop in a bank or card statement and see every subscription you pay for, what it costs a year, and how to cancel it. Runs entirely on your device.">
+  <title>Subscription Finder</title>
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="preload" href="fonts/Newsreader.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="fonts/Geist.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <div class="glow" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="Subscription Finder, start over">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="9"/><circle cx="14.5" cy="14.5" r="6.5"/><path d="M19.4 19.4 24 24"/><path d="M12 14.5h5M14.5 12v5"/></svg>
+      <span>Subscription Finder</span>
+    </a>
+    <span class="local-badge" title="Nothing you load here is uploaded"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="3" y="7" width="10" height="7" rx="2"/><path d="M5.5 7V5a2.5 2.5 0 0 1 5 0v2"/></svg>On-device</span>
+  </header>
+
+  <main id="app">
+    <!-- 1. Start -->
+    <section class="view view-start" id="view-start" data-view="start">
+      <p class="eyebrow">Private by design · no sign-up</p>
+      <h1 class="headline">Find every subscription <em>hiding</em> in your statement.</h1>
+      <p class="lede">Drop in a CSV from your bank or card. In seconds you'll see every recurring charge, what it really costs you a year, and how to cancel it.</p>
+
+      <label class="drop" id="drop" for="file">
+        <input type="file" id="file" accept=".csv,text/csv,.txt,.pdf" data-testid="file-input">
+        <span class="drop-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 15v3a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-3"/></svg></span>
+        <span class="drop-title">Drop your statement here</span>
+        <span class="drop-sub">or <u>choose a CSV file</u></span>
+        <span class="banks">Chase · Bank of America · Amex · Capital One · any CSV</span>
+      </label>
+      <p class="error" id="error" role="alert" hidden></p>
+
+      <button class="btn btn-primary btn-wide" id="sample" type="button" data-testid="sample">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h10l4 4v12H5z"/><path d="M15 4v4h4M8 12h8M8 16h5"/></svg>
+        Try with a sample statement
+      </button>
+
+      <ul class="promises">
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 8.3 7 10 4-1.7 7-5.5 7-10V6z"/><path d="m9 12 2 2 4-4"/></svg><span><b>Your statement never leaves this device.</b> It's read by your browser, right here. Nothing is uploaded or stored.</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg><span><b>No accounts, no tracking, no bank logins.</b> No analytics or third-party scripts at all.</span></li>
+        <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg><span><b>Locked down.</b> A strict security policy blocks this page from contacting any other server.</span></li>
+      </ul>
+    </section>
+
+    <!-- 2. Column mapping (unknown CSV layouts) -->
+    <section class="view view-mapping" id="view-mapping" data-view="mapping" hidden>
+      <p class="eyebrow">One quick check</p>
+      <h2 class="title">Which columns are which?</h2>
+      <p class="lede small">We didn't recognise this file's layout. Point us at the right columns and we'll take it from there.</p>
+      <form class="mapping" id="mapping-form" novalidate>
+        <div class="field"><label for="map-date">Date</label><select id="map-date" data-testid="map-date"></select></div>
+        <div class="field"><label for="map-desc">Description</label><select id="map-desc" data-testid="map-desc"></select></div>
+        <div class="field"><label for="map-mode">Amounts are in</label>
+          <select id="map-mode" data-testid="map-mode">
+            <option value="single-negative">One column, purchases negative</option>
+            <option value="single-positive">One column, purchases positive</option>
+            <option value="split">Separate money-out / money-in columns</option>
+          </select></div>
+        <div class="field" id="field-amount"><label for="map-amount">Amount</label><select id="map-amount" data-testid="map-amount"></select></div>
+        <div class="field" id="field-debit" hidden><label for="map-debit">Money out (debit)</label><select id="map-debit" data-testid="map-debit"></select></div>
+        <div class="field" id="field-credit" hidden><label for="map-credit">Money in (credit)</label><select id="map-credit" data-testid="map-credit"></select></div>
+        <div class="preview-wrap"><table class="preview" id="preview"></table></div>
+        <div class="row">
+          <button class="btn btn-ghost" type="button" data-action="restart">Back</button>
+          <button class="btn btn-primary" type="submit" data-testid="map-submit">Find subscriptions</button>
+        </div>
+      </form>
+    </section>
+
+    <!-- 3. Scanning -->
+    <section class="view view-scan" id="view-scan" data-view="scan" hidden aria-live="polite">
+      <div class="scanner" aria-hidden="true"><span></span><span></span><span></span></div>
+      <p class="scan-count"><span id="scan-count">0</span> transactions</p>
+      <p class="scan-line" id="scan-line">Reading your statement…</p>
+    </section>
+
+    <!-- 4. Results -->
+    <section class="view view-results" id="view-results" data-view="results" hidden>
+      <div class="hero" data-testid="hero">
+        <p class="hero-kicker">You're paying</p>
+        <p class="hero-total"><span class="cur">$</span><span id="total" data-testid="yearly-total">0</span><span class="per">/yr</span></p>
+        <p class="hero-sub" id="hero-sub"></p>
+        <div class="chips" id="chips"></div>
+      </div>
+
+      <div class="list-head">
+        <h2>Your subscriptions</h2>
+        <p>Choose what to keep. We'll add up what you save.</p>
+      </div>
+      <ol class="subs" id="subs" data-testid="subs"></ol>
+
+      <details class="stopped" id="stopped" hidden>
+        <summary>Looks already stopped <span id="stopped-count"></span></summary>
+        <ol class="subs subs-stopped" id="stopped-list"></ol>
+      </details>
+
+      <footer class="results-foot">
+        <p id="source-note"></p>
+        <p>Cancel links are each service's official help page, checked on <span id="verified-on"></span>. Unknown merchants get a web search.</p>
+        <button class="btn btn-ghost" type="button" data-action="restart" data-testid="restart">Check another statement</button>
+      </footer>
+
+    </section>
+  </main>
+
+    <div class="savebar" id="savebar" data-testid="savebar" aria-live="polite">
+      <div class="savebar-inner">
+        <div>
+          <p class="save-label" id="save-label">Tap <b>Cancel</b> on anything you don't need</p>
+          <p class="save-amount"><span class="save-prefix">You save</span> $<span id="savings" data-testid="savings">0</span><span class="per">/yr</span></p>
+        </div>
+        <div class="save-ring" aria-hidden="true"><svg viewBox="0 0 36 36"><circle class="track" cx="18" cy="18" r="15.5"/><circle class="fill" id="save-ring" cx="18" cy="18" r="15.5"/></svg><span id="save-pct">0%</span></div>
+      </div>
+    </div>
+
+  <footer class="sitefoot">
+    <p>Runs entirely in your browser · 0 bytes uploaded · Built by a KrewBots agent</p>
+  </footer>
+</body>
+</html>

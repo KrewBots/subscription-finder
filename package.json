@@ -1,0 +1,25 @@
+{
+  "name": "subscription-finder",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Find every recurring charge in a bank or card statement. Runs entirely in the browser.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test \"test/unit/*.test.js\"",
+    "test:e2e": "node --test --test-concurrency=1 \"test/e2e/*.test.js\"",
+    "build:pages": "node scripts/build-pages.mjs",
+    "preview:pages": "node scripts/pages-preview.mjs",
+    "test:pages": "node scripts/test-pages.mjs",
+    "test:all": "npm test && npm run test:e2e && npm run test:pages",
+    "verify-links": "node scripts/verify-links.mjs",
+    "fixtures": "node scripts/make-fixtures.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

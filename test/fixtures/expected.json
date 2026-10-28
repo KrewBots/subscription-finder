@@ -1,0 +1,113 @@
+{
+  "chase-card": {
+    "format": "chase-card",
+    "subscriptions": [
+      "Netflix",
+      "Spotify",
+      "Ironhaus Gym"
+    ],
+    "priceIncrease": [
+      "Netflix"
+    ]
+  },
+  "chase-checking": {
+    "format": "chase-checking",
+    "subscriptions": [
+      "Planet Fitness",
+      "Hulu",
+      "Sunrise Coffee Club"
+    ]
+  },
+  "bofa-checking": {
+    "format": "bofa-checking",
+    "subscriptions": [
+      "Netflix",
+      "Apple",
+      "Disney+",
+      "Disney+"
+    ],
+    "duplicate": [
+      "Disney+"
+    ]
+  },
+  "bofa-card": {
+    "format": "bofa-card",
+    "subscriptions": [
+      "Adobe Creative Cloud",
+      "ChatGPT Plus",
+      "Greenleaf Pantry"
+    ]
+  },
+  "amex": {
+    "format": "amex",
+    "subscriptions": [
+      "YouTube Premium",
+      "The New York Times",
+      "Spotify",
+      "Pixelnest Studio"
+    ],
+    "priceIncrease": [
+      "YouTube Premium"
+    ]
+  },
+  "capone-card": {
+    "format": "capone-card",
+    "subscriptions": [
+      "Max",
+      "Duolingo Super",
+      "Netflix"
+    ]
+  },
+  "capone-360": {
+    "format": "capone-360",
+    "subscriptions": [
+      "Peacock",
+      "Hulu",
+      "Ironhaus Gym"
+    ]
+  },
+  "unknown-layout": {
+    "format": null,
+    "needsMapping": true,
+    "mapping": {
+      "date": 0,
+      "description": 1,
+      "debit": 2,
+      "credit": 3
+    },
+    "subscriptions": [
+      "Netflix",
+      "Spotify",
+      "Hulu"
+    ]
+  },
+  "sample": {
+    "subscriptions": [
+      "Netflix",
+      "Spotify",
+      "Disney+",
+      "Disney+",
+      "Hulu",
+      "Apple",
+      "Apple",
+      "Adobe",
+      "Planet Fitness",
+      "Amazon Prime",
+      "ChatGPT",
+      "YouTube Premium",
+      "Sunrise Coffee Club",
+      "Greenleaf Pantry",
+      "New York Times"
+    ],
+    "stopped": [
+      "Peloton"
+    ],
+    "priceIncrease": [
+      "Netflix",
+      "YouTube Premium"
+    ],
+    "duplicate": [
+      "Disney+"
+    ]
+  }
+}
